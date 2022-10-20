@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.money-details-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-container {
+  height: 80px;
+  width: 200px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.color-green {
+  background-color: #ecfccb;
+  border-radius: 5px;
+  border: 1px solid #84cc16;
+}
+.color-blue {
+  background-color: #cffafe;
+  border-radius: 5px;
+  border: 1px solid #06b6d4;
+}
+.color-purple {
+  background-color: #ede9fe;
+  border-radius: 5px;
+  border: 1px solid #7c3aed;
+}
+.image-name {
+  height: 40px;
+  width: 40px;
+}
+.balance {
+  font-size: 10px;
+}
+.price {
+  font-size: 10px;
+}
